@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatUi</title>
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/98c30a4363.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="flex flex-col md:flex-row justify-center items-center gap-3">
+    <!-- 1 st chat card -->
+    <div class="w-80 rounded-2xl h-lvh shadow-2xl bg-gray-900 text-white m-1">
+      <div class="flex justify-between shadow-xl w-full px-1 py-2">
+        <div class="flex items-center">
+          <div><img src="./profile.png" class="w-8 h-8 rounded-full" /></div>
+          <p class="px-2 text-xl">Inbox</p>
+        </div>
+        <div class="size-8 rounded-full flex justify-center items-center">
+          <i class="fa-solid fa-camera"></i>
+        </div>
+      </div>
+
+      <div class="w-full h-auto mt-5 px-5">
+        <input
+          type="text"
+          placeholder="Search"
+          class="outline-1 outline-gray-400 px-2 w-full rounded-2xl"
+        />
+      </div>
+
+      <div
+        class="mt-4 flex justify-around items-center overflow-hidden space-x-3 ml-1"
+      >
+        <div
+          class="relative rounded-full flex justify-center items-center size-10 border-2 border-gray-400 shrink-0"
+        >
+          <i class="fa-solid fa-plus text-gray-600"></i>
+        </div>
+        <div
+          class="relative rounded-full flex justify-center items-center size-10 border-2 border-gray-400 shrink-0"
+        >
+          <img src="./profile.png" class="size-8 rounded-full" alt="" />
+          <div
+            class="absolute size-2.5 rounded-full bg-green-400 bottom-0 right-0"
+          ></div>
+        </div>
+        <div
+          class="relative rounded-full flex justify-center items-center size-10 border-2 border-gray-400 shrink-0"
+        >
+          <img src="./1.jpeg" class="size-8 rounded-full" alt="" />
+          <div
+            class="absolute size-2.5 rounded-full bg-green-400 bottom-0 right-0"
+          ></div>
+        </div>
+        <div
+          class="relative rounded-full flex justify-center items-center size-10 border-2 border-gray-400 shrink-0"
+        >
+          <img src="./2.jpeg" class="size-8 rounded-full" alt="" />
+          <div
+            class="absolute size-2.5 rounded-full bg-green-400 bottom-0 right-0"
+          ></div>
+        </div>
+        <div
+          class="relative rounded-full flex justify-center items-center size-10 border-2 border-gray-400 shrink-0"
+        >
+          <img src="./3.jpeg" class="size-8 rounded-full" alt="" />
+          <div
+            class="absolute size-2.5 rounded-full bg-green-400 bottom-0 right-0"
+          ></div>
+        </div>
+        <div
+          class="relative rounded-full flex justify-center items-center size-10 border-2 border-gray-400 shrink-0"
+        >
+          <img src="./4.jpeg" class="size-8 rounded-full" alt="" />
+          <div
+            class="absolute size-2.5 rounded-full bg-green-400 bottom-0 right-0"
+          ></div>
+        </div>
+        <div
+          class="relative rounded-full flex justify-center items-center size-10 border-2 border-gray-400 shrink-0"
+        >
+          <img src="./5.jpeg" class="size-8 rounded-full" alt="" />
+          <div
+            class="absolute size-2.5 rounded-full bg-green-400 bottom-0 right-0"
+          ></div>
+        </div>
+      </div>
+
+      <div class="flex flex-col mt-6">
+        <div
+          class="grid grid-cols-12 items-center justify-center mb-3 px-2 hover:bg-slate-800"
+        >
+          <div class="col-span-2">
+            <img src="./profile.png" class="size-10 rounded-full" />
+          </div>
+          <div class="col-span-7">
+            <h2 class="font-semibold">Brown</h2>
+            <p>Hello how are you</p>
+          </div>
+          <div class="col-span-3"><p>10:45 AM</p></div>
+        </div>
+        <div
+          class="grid grid-cols-12 items-center justify-center mb-3 px-2 hover:bg-slate-800"
+        >
+          <div class="col-span-2">
+            <img src="./1.jpeg" class="size-10 rounded-full" />
+          </div>
+          <div class="col-span-7">
+            <h2 class="font-semibold">John</h2>
+            <p>Are you Comig?</p>
+          </div>
+          <div class="col-span-3"><p>10:45 AM</p></div>
+        </div>
+        <div
+          class="grid grid-cols-12 items-center justify-center mb-3 px-2 hover:bg-slate-800"
+        >
+          <div class="col-span-2">
+            <img src="./2.jpeg" class="size-10 rounded-full" />
+          </div>
+          <div class="col-span-7">
+            <h2 class="font-semibold">Alex</h2>
+            <p>No!</p>
+          </div>
+          <div class="col-span-3"><p>10:45 AM</p></div>
+        </div>
+        <div
+          class="grid grid-cols-12 items-center justify-center px-2 hover:bg-slate-800"
+        >
+          <div class="col-span-2">
+            <img src="./3.jpeg" class="size-10 rounded-full" />
+          </div>
+          <div class="col-span-7">
+            <h2 class="font-semibold">Jean</h2>
+            <p>Yes he will be there</p>
+          </div>
+          <div class="col-span-3"><p>10:45 AM</p></div>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-around items-center h-auto mt-6 border-t-1 border-gray-400 py-2"
+      >
+        <div><i class="fa-solid fa-message"></i></div>
+        <div><i class="fa-solid fa-user text-gray-400"></i></div>
+        <div><i class="fa-solid fa-compass text-gray-400"></i></div>
+      </div>
+    </div>
+
+    <!-- 2nd char card -->
+
+    <div class="w-80 rounded-2xl h-lvh shadow-2xl bg-gray-900 text-white m-2">
+      <div class="flex justify-between items-center w-full h-auto">
+        <div class="flex justify-between items-center px-2">
+          <i class="fa-solid fa-arrow-left px-2 py-2"></i>
+          <p class="px-2 py-2">MUNEEB</p>
+        </div>
+        <div class="flex justify-between items-center px-2">
+          <i class="fa-solid fa-phone px-2 py-2"></i>
+          <i class="fa-solid fa-video px-2 py-2"></i>
+          <i class="fa-solid fa-circle-info px-2 py-2"></i>
+        </div>
+      </div>
+
+      <div class="w-full mb-2">
+        <div class="w-full h-auto flex justify-center items-center mb-1">
+          <p class="text-gray-500">10:52 AM</p>
+        </div>
+
+         <div class="flex w-full  pl-2">
+
+          <div class="w-[10%]">
+            <img src="./profile.png" class="size-8 rounded-full " alt="" />
+          </div>
+
+          <div class="w-[80%] h-auto ml-2">
+            <h1
+              class="bg-blue  rounded-r-lg rounded-b-lg bg-blue-500 p-1 "
+            >
+              Hi Muneeb How Are you!
+
+            </h1>
+          </div>
+          
+        </div>
+
+        <div class="w-full h-auto flex justify-center items-center mb-1">
+          <p class="text-gray-500">10:53 AM</p>
+        </div>
+
+        <div class=" h-auto flex justify-end ">
+            <h1
+              class="bg-blue  rounded-r-lg rounded-b-lg bg-blue-500 p-1 mr-2"
+            >
+             Yep! Whats up?
+            </h1>
+        </div>
+
+       
+        <div class="w-full h-auto flex justify-center items-center mb-1">
+          <p class="text-gray-500">10:53 AM</p>
+        </div>
+
+        <div class=" h-auto flex justify-end ">
+            <h1
+              class="bg-blue  rounded-r-lg rounded-b-lg bg-blue-500 p-1 mr-2"
+            >
+             Lets Meet Today
+            </h1>
+        </div>
+
+       
+
+        <div class="w-full h-auto flex justify-center items-center mb-1">
+          <p class="text-gray-500">10:54 AM</p>
+        </div>
+
+         <div class="flex w-full  pl-2 mb-2">
+
+          <div class="w-[10%]">
+            <img src="./profile.png" class="size-8 rounded-full " alt="" />
+          </div>
+
+          <div class="w-[80%] h-auto ml-2">
+            <h1
+              class="bg-blue  rounded-r-lg rounded-b-lg bg-blue-500 p-2 "
+            >
+              yeah,we got to come along with all the files for Mr Black . Also make sure you come along with presentation for managment
+
+            </h1>
+          </div>
+          
+        </div>
+
+        <div class="flex justify-items-start p-2">
+            <div class="">
+            <img src="./profile.png" class="size-8 rounded-full " alt="" />
+            </div>
+            <div class="flex justify-center items-center h-5 rounded-2xl p-2 ml-2 bg-gray-400">
+                <div class="size-3 rounded-full bg-gray-500 ml-1"></div>
+                <div class="size-3 rounded-full bg-gray-700 ml-1"></div>
+                <div class="size-3 rounded-full bg-gray-500 ml-1"></div>
+            </div>
+        </div>
+
+      </div>
+
+
+        
+
+      <div class="w-full flex justify-center h-9">
+        <div class="flex justify-center items-center bg-slate-700 w-[80%] rounded">
+        <i class="fa-solid fa-paperclip"></i>
+        <input type="text" placeholder="type a message " class="px-2 outline-0">
+        <i class="fa-regular fa-paper-plane"></i>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
